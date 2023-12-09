@@ -1,0 +1,12 @@
+section{
+    height: 100%;
+}
+
+#profile{
+    border: solid 10px;
+    border-radius: 50%;
+}
+
+.card{
+    height: 100%;
+}

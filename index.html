@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="./styles/styling.css" rel="stylesheet">
+</head>
+
+<body>
+	<!--Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary py-md-0">
+      <div class="container-fluid">
+        <h2>Callum Blanch</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-md-flex" id="navbar">
+          <ul class="navbar-nav col-md-12 me-auto mb-2 mb-md-0 justify-content-md-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	</header>
+
+  <!--Home-->
+  <section>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/AvatarMaker.png" id="profile" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm Callum</h1>
+          <p class="lead">
+            A recent computer science graduate now working as a junior data analyst at the NHS, passionate about building practical skills in the world of data analytics.
+          </p>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#about" class="btn btn-outline-light btn-lg px-4 me-md-2">About</a>
+            <a href="#projects" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--About-->
+  <section id="about">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">About Me</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-start g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <p class="lead">
+            Hi, I’m Callum, a recent computer science graduate with a first-class honours degree from the University Of Portsmouth. 
+            I’m passionate about data analytics and have recently joined the NHS as a junior data analyst, where I’ve successfully contributed to various projects.
+          </p>
+
+          <p class="lead">
+            I have a strong commitment to continuous learning and am always working on something new. I’ve completed various side courses alongside my studies including the AZ-900 and a Udemy web development course. 
+            Currently, I am actively building a portfolio showcasing my knowledge in SQL and Power Bi.
+          </p>
+
+          <p class="lead">
+            Beyond tech, I have a keen interest in F1 and indie games. My analytical skills, coupled with an understanding of the importance of data in our lives, drive my passion for tackling new challenges and constantly expanding my knowledge base. 
+            Feel free to explore some of the projects I've been working on below!
+          </p>
+
+
+        </div>
+
+        <div class="col">
+          <div class="row row-cols-1 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-start border border-2 rounded-3">
+                <img src="./images/mortarboard.svg" width="30" height="30" class="mx-2 my-1">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Education</h4>
+              </div>
+              <p class="text-body-secondary">University Of Portsmouth (2020-2023)<br>BSc Computer Science, Graduated with First class honors</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-start border border-2 rounded-3">
+                <img src="./images/award.svg" width="30" height="30" class="mx-2 my-1">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Certs</h4>
+              </div>
+              <ul>
+                <li class="text-body-secondary">Microsoft Azure Fundamentals (Nov 2022)</li>
+                <li class="text-body-secondary">Web development course</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects-->
+  <section id="projects">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">My projects</h2>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-3 py-5 ">
+        <div class="col">
+          <div class="card">
+            <h5 class="card-header">Personal website</h5>
+            <div class="card-body">
+              <p class="card-text">The website your currently viewing, created using Bootstrap. Checkout the source code below.</p>
+              <a href="" class="btn btn-outline-secondary disabled"><img src="./images/github.svg" width="30" height="30" class="me-2">Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <h5 class="card-header">Tableau Project</h5>
+            <div class="card-body">
+              <p class="card-text">A project completed as part of my final year studies. A case study analysing Microsoft’s Twitter account using Tableau.</p>
+              <a href="" class="btn btn-outline-secondary disabled"><img src="./images/github.svg" width="30" height="30" class="me-2">Source</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <h5 class="card-header ">Upcoming - TBC</h5>
+            <div class="card-body">
+              <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+              </p>
+              <a class="btn btn-outline-secondary disabled placeholder col-6"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section id="contact">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Contact Me</h2>
+      <p class="lead mb-4">My social links are below, feel free to contact me via email or LinkedIn. I’ll try and get back to you as soon as possible.</p>
+      <div class="d-grid gap-2 d-sm-flex">
+        <a href="" class="btn btn-outline-secondary btn-lg disabled"><img src="./images/linkedin.svg" width="30" height="30" class="me-2">LinkedIn</a>
+        <a href="" class="btn btn-outline-secondary btn-lg disabled"><img src="./images/envelope.svg" width="30" height="30" class="me-2">Email</a>
+        <a href="https://github.com/Callumb129" class="btn btn-outline-secondary btn-lg"><img src="./images/github.svg" width="30" height="30" class="me-2">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <div class="container-fluid">
+    <footer class="d-flex flex-wrap py-2 border-top">
+      <div class="col-md-6 d-flex justify-content-md-start">
+        <h2>Callum Blanch</h2>
+      </div>
+      <div class="col-md-6 d-flex justify-content-md-end">
+        <p>Created using Bootstrap <img src="./images/bootstrap.svg" width="30" height="30" class="ms-2"></p>
+      </div>
+    </footer>
+  </div>
+  
+	<!--Scripts-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
